@@ -1,0 +1,26 @@
+.vscode
+.idea
+.DS_Store
+*.DS_Store
+*/.DS_Store
+node_modules
+.pnp
+.pnp.js
+coverage
+build
+.env.development
+.env.test
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.idea/
+.eslintcache
+.parcel-cache
+
+cypress.env.json
+cypress/screenshots/All Integration Specs/my-image.png
+
+tests/cypress.env.json
+tests/env.development.json
+tests/cypress/screenshots/All Integration Specs/my-image.png
+tests/cypress/videos

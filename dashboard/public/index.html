@@ -1,0 +1,66 @@
+ <html>
+<head>
+    <title>Dashboard</title>
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Assessment Dashboard</h1>
+        </div>
+        <div class="content">
+            <div class="menu">
+                <ul>
+                    <li><a href="Overview.html">Overview</a></li>
+                    <li><a href="Assessment.html">Assessment Summary</a></li>
+                    <li><a href="Report.html">Report</a></li>
+                </ul>
+            </div>
+            <div class="main">
+                <h2>Welcome to your Dashboard</h2>
+                <p>Department of Acturial Science & Statistics</p>
+                <p>Welcome, John! Here is an overview of your departments performance </p>
+            </div>
+        </div>
+       
+    </div>
+
+    <div class="search-container">
+      <input type="text" placeholder="Search for a lecturer..." id="searchInput">
+      <button onclick="searchLecturer()"><i class="fa fa-search"></i></button>
+  </div>
+
+
+ 
+
+  
+  <div class="grid-container">
+    <div class="grid-item1">Average Performance</div>
+    <div class="grid-item2">Total Lecturers</div>
+    <div class="grid-item3">Total Students</div>
+    <div class="grid-item4">Positive Sentiments</div>
+    <div class="grid-item5">Negative Sentiments</div>
+</div>
+
+<div class = "Performance">
+ 
+<p> Departments Performance </p>
+
+</div>
+
+
+
+<div class="footer">
+    <p>&copy; 2024</p>
+</div>
+
+</body>
+
+
+<script type="module" src=".src/index.js"></script> 
+
+<!-- <script src=".src/index.js" type="text.jsx"></script> -->
+
+<div id = "root"></div>
+</html>

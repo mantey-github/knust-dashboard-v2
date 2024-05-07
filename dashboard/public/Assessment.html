@@ -1,0 +1,109 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Assessment Page</title>
+        <link rel="stylesheet" href="main.css">
+    </head>
+
+
+    <body>
+        <h1>Assessment Page</h1>
+        <p>All lecturers</p>
+
+        <div class="assessment-search-container">
+            <input type="text" placeholder="Search for a lecturer..." id="searchInput">
+            <button onclick="searchLecturer()"><i class="fa fa-search"></i></button>
+        </div>
+
+
+
+        <div class="assessment-table-container">
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Lecturer</th>
+                        <th>Average Performance (%)</th>
+                        <th>Positive Sentiment  (%)</th>
+                        <th>Neutral Sentiment  (%)</th>
+                        <th>Negative Sentiment  (%)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td data-cell="name">Dr. Smith</td>
+                        <td data-cell="performance">27</td>
+                        <td data-cell="positive-sentiment">34</td>
+                        <td data-cell="negative-sentiment">36</td>
+                        <td data-cell="neutral-sentiment">73</td>
+                       
+                        
+                    </tr>
+                    <tr>
+                        <td data-cell="name">Prof. Johnson</td>
+                        <td data-cell="performance">34</td>
+                        <td data-cell="positive-sentiment">74</td>
+                        <td data-cell="negative-sentiment">71</td>
+                        <td data-cell="neutral-sentiment">85</td>
+                    </tr>
+
+
+
+                    <tr>
+                        <td data-cell="name">Dr. Eric</td>
+                        <td data-cell="performance">56</td>
+                        <td data-cell="positive-sentiment">78</td>
+                        <td data-cell="negative-sentiment">90</td>
+                        <td data-cell="neutral-sentiment">56</td>
+                        
+                    </tr>
+
+
+
+                    <tr>    
+                        <td data-cell="name">Dr. Dummy</td>
+                        <td data-cell="performance">56</td>
+                        <td data-cell="positive-sentiment">98</td>
+                        <td data-cell="negative-sentiment">40</td>
+                        <td data-cell="neutral-sentiment">78</td>
+                       
+                    </tr>
+
+                    <tr>
+                        <td data-cell="name">Dr. Frog</td>
+                        <td data-cell="performance">67</td>
+                        <td data-cell="positive-sentiment">34</td>
+                        <td data-cell="negative-sentiment">23</td>
+                        <td data-cell="neutral-sentiment">78</td>
+                       
+                    </tr>
+
+                    <tr>
+                        <td data-cell="name">Dr. Snake</td>
+                        <td data-cell="performance">56</td>
+                        <td data-cell="positive-sentiment">78</td>
+                        <td data-cell="negative-sentiment">90</td>
+                        <td data-cell="neutral-sentiment">56</td>
+                        
+                    </tr>   
+
+                    <tr>
+                        <td data-cell="name">Dr. Spider</td>
+                        <td data-cell="performance">67</td>
+                        <td data-cell="positive-sentiment">34</td>
+                        <td data-cell="negative-sentiment">23</td>
+                        <td data-cell="neutral-sentiment">78</td>
+                       
+                    </tr>
+
+                
+
+                        
+        </div>
+        
+
+
+    </body>
+    </html>

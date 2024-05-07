@@ -1,0 +1,168 @@
+
+
+.container {
+    padding: 2px 16px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    padding: 10px;
+    
+}
+
+.grid-item1, .grid-item2, .grid-item3, .grid-item4, .grid-item5 {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: #fff;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f8f9fa;
+    color: black;
+    text-align: center;
+
+}
+
+
+.assessment-dashboard {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* Creates 5 equal-width columns */
+    grid-template-rows: auto; /* Rows will adjust based on content */
+    gap: 1.5; /* Space between grid items */
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+
+.grid-item6, .grid-item7, .grid-item8, .grid-item9, .grid-item10 {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.row-header {
+    display: flexbox /* Allows grid items to be direct children of the grid container */
+}
+
+
+.menu {
+background-color: green;
+display: flex;
+
+flex-direction: row;
+}
+
+
+ul li {
+    font-size: 20px;
+    display: inline-block;
+    margin: 20px ;
+    color: white;
+    
+}
+
+
+ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+.Performance p{
+  margin-top: 70px;
+  font-size: 20px;
+  text-align: center;
+  color: black;
+}
+  
+
+
+
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+  }
+  
+  input[type="submit"] {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background: #0056b3;
+  }
+
+
+
+ 
+.assessment-table-container{
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.assessment-table-container th,.assessment-table-container td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.lassessment-table-container th {
+  background-color: #f2f2f2;
+  color: black;
+}
+
+
+
+
+
+/* styles.css */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
